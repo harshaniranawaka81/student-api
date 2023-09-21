@@ -1,0 +1,6 @@
+.vs/
+bin/
+obj/
+*.user
+/src/WeatherService.Api/Logs/log-20230722.txt
+/src/WeatherService.Api/Logs/log-20230723.txt
