@@ -65,13 +65,15 @@ namespace WeatherService.Api.Extensions
         /// Configure the database connection
         /// </summary>
         /// <param name="services"></param>
-        /// <param name="connecionString"></param>
-        public static void ConfigureDb(this IServiceCollection services, string connecionString)
+        /// <param name="config"></param>
+        public static void ConfigureDb(this IServiceCollection services, IConfiguration config)
         {
-	        services.AddScoped<StudentDbContext>();
-			services.AddDbContext<StudentDbContext>(
-				options => options.UseSqlServer(connecionString));
-		}
+            services.AddScoped<StudentDbContext>();
+
+            var connectionString = config["ConnectionStrings: DefaultConnection"];
+            services.AddDbContext<StudentDbContext>(
+                options => options.UseSqlServer(connectionString));
+        }
 
         /// <summary>
         /// Register all custom services
