@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4PG2CZQcXKs5jSqbSd7ucF6ckBTuW6gnyBjC+J0loQMcdycGhuH5Fv7GE7hBVdvTAZ3cpA/y90VgJ+uRWllhWw==",
+  "dgSpecHash": "Pj9OuwLUouBJ/ePND/66qtvVMHm6/ZKWSVI7AAT6Q4D3P5vAp2lXcjM8UJ1z7H3oWPLUX5ma12LftN9oO+m0YA==",
   "success": true,
-  "projectFilePath": "C:\\Harshani\\Personal\\Learning\\GitHub\\studentapi\\StudentApi.Business\\StudentApi.Business.csproj",
+  "projectFilePath": "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi.Business\\StudentApi.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HRANAWAKA\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\HRANAWAKA\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

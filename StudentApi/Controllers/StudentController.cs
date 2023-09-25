@@ -80,7 +80,7 @@ namespace StudentApi.Controllers
 		[ProducesResponseType(typeof(string), StatusCodes.Status204NoContent)]
 		[ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
 		[ProducesResponseType(typeof(string), StatusCodes.Status500InternalServerError)]
-		public async Task<IActionResult> SaveStudent(Student student)
+        public async Task<IActionResult> SaveStudent(Student student)
 		{
 			var result = await _studentService.SaveStudent(student);
 

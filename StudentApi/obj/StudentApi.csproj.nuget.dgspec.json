@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Harshani\\Personal\\Learning\\GitHub\\studentapi\\StudentApi\\StudentApi.csproj": {}
+    "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi\\StudentApi.csproj": {}
   },
   "projects": {
-    "C:\\Harshani\\Personal\\Learning\\GitHub\\studentapi\\StudentApi.Business\\StudentApi.Business.csproj": {
+    "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi.Business\\StudentApi.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Harshani\\Personal\\Learning\\GitHub\\studentapi\\StudentApi.Business\\StudentApi.Business.csproj",
+        "projectUniqueName": "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi.Business\\StudentApi.Business.csproj",
         "projectName": "StudentApi.Business",
-        "projectPath": "C:\\Harshani\\Personal\\Learning\\GitHub\\studentapi\\StudentApi.Business\\StudentApi.Business.csproj",
+        "projectPath": "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi.Business\\StudentApi.Business.csproj",
         "packagesPath": "C:\\Users\\HRANAWAKA\\.nuget\\packages\\",
-        "outputPath": "C:\\Harshani\\Personal\\Learning\\GitHub\\studentapi\\StudentApi.Business\\obj\\",
+        "outputPath": "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Harshani\\Personal\\Learning\\GitHub\\studentapi\\StudentApi.Repository\\StudentApi.Repository.csproj": {
-                "projectPath": "C:\\Harshani\\Personal\\Learning\\GitHub\\studentapi\\StudentApi.Repository\\StudentApi.Repository.csproj"
+              "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi.Repository\\StudentApi.Repository.csproj": {
+                "projectPath": "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi.Repository\\StudentApi.Repository.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "C:\\Harshani\\Personal\\Learning\\GitHub\\studentapi\\StudentApi.Repository\\StudentApi.Repository.csproj": {
+    "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi.Repository\\StudentApi.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Harshani\\Personal\\Learning\\GitHub\\studentapi\\StudentApi.Repository\\StudentApi.Repository.csproj",
+        "projectUniqueName": "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi.Repository\\StudentApi.Repository.csproj",
         "projectName": "StudentApi.Repository",
-        "projectPath": "C:\\Harshani\\Personal\\Learning\\GitHub\\studentapi\\StudentApi.Repository\\StudentApi.Repository.csproj",
+        "projectPath": "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi.Repository\\StudentApi.Repository.csproj",
         "packagesPath": "C:\\Users\\HRANAWAKA\\.nuget\\packages\\",
-        "outputPath": "C:\\Harshani\\Personal\\Learning\\GitHub\\studentapi\\StudentApi.Repository\\obj\\",
+        "outputPath": "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -152,14 +152,14 @@
         }
       }
     },
-    "C:\\Harshani\\Personal\\Learning\\GitHub\\studentapi\\StudentApi\\StudentApi.csproj": {
+    "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi\\StudentApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Harshani\\Personal\\Learning\\GitHub\\studentapi\\StudentApi\\StudentApi.csproj",
+        "projectUniqueName": "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi\\StudentApi.csproj",
         "projectName": "StudentApi",
-        "projectPath": "C:\\Harshani\\Personal\\Learning\\GitHub\\studentapi\\StudentApi\\StudentApi.csproj",
+        "projectPath": "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi\\StudentApi.csproj",
         "packagesPath": "C:\\Users\\HRANAWAKA\\.nuget\\packages\\",
-        "outputPath": "C:\\Harshani\\Personal\\Learning\\GitHub\\studentapi\\StudentApi\\obj\\",
+        "outputPath": "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -180,8 +180,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Harshani\\Personal\\Learning\\GitHub\\studentapi\\StudentApi.Business\\StudentApi.Business.csproj": {
-                "projectPath": "C:\\Harshani\\Personal\\Learning\\GitHub\\studentapi\\StudentApi.Business\\StudentApi.Business.csproj"
+              "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi.Business\\StudentApi.Business.csproj": {
+                "projectPath": "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi.Business\\StudentApi.Business.csproj"
               }
             }
           }

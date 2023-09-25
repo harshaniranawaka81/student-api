@@ -45,7 +45,7 @@ namespace StudentApi.Business.Middleware
             var errorResponse = new ErrorDetails
             {
                 Code = context.Response.StatusCode,
-                Message = exception.InnerException?.Message
+                Message = exception.Message ?? exception.InnerException?.Message
             };
 
             var result = JsonSerializer.Serialize(errorResponse);
