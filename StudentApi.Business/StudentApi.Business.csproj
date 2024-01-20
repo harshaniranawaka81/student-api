@@ -7,11 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StudentApi.Repository\StudentApi.Repository.csproj" />
+    <Compile Remove="Constants\**" />
+    <EmbeddedResource Remove="Constants\**" />
+    <None Remove="Constants\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Constants\" />
+    <ProjectReference Include="..\StudentApi.Repository\StudentApi.Repository.csproj" />
   </ItemGroup>
 
   <ItemGroup>

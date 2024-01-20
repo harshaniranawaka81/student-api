@@ -43,6 +43,18 @@
             <param name="id"></param>
             <returns></returns>
         </member>
+        <member name="T:StudentApi.Migrations.InitStudentDb">
+            <inheritdoc />
+        </member>
+        <member name="M:StudentApi.Migrations.InitStudentDb.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:StudentApi.Migrations.InitStudentDb.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:StudentApi.Migrations.InitStudentDb.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
         <member name="T:WeatherService.Api.Extensions.MiddlewareExtensions">
             <summary>
             Class to store all extension methods to register custom middleware

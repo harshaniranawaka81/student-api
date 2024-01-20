@@ -43,6 +43,18 @@
             <param name="id"></param>
             <returns></returns>
         </member>
+        <member name="T:StudentApi.Migrations.InitStudentDb">
+            <inheritdoc />
+        </member>
+        <member name="M:StudentApi.Migrations.InitStudentDb.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:StudentApi.Migrations.InitStudentDb.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:StudentApi.Migrations.InitStudentDb.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
         <member name="T:WeatherService.Api.Extensions.MiddlewareExtensions">
             <summary>
             Class to store all extension methods to register custom middleware
@@ -72,12 +84,12 @@
             </summary>
             <param name="services"></param>
         </member>
-        <member name="M:WeatherService.Api.Extensions.ServiceExtensions.ConfigureDb(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)">
+        <member name="M:WeatherService.Api.Extensions.ServiceExtensions.ConfigureDb(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
             <summary>
             Configure the database connection
             </summary>
             <param name="services"></param>
-            <param name="connecionString"></param>
+            <param name="config"></param>
         </member>
         <member name="M:WeatherService.Api.Extensions.ServiceExtensions.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
             <summary>

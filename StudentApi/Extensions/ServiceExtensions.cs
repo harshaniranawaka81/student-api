@@ -70,9 +70,10 @@ namespace WeatherService.Api.Extensions
         {
             services.AddScoped<StudentDbContext>();
 
-            var connectionString = config["ConnectionStrings: DefaultConnection"];
+            var connectionString = config["ConnectionStrings:DefaultConnection"];
             services.AddDbContext<StudentDbContext>(
-                options => options.UseSqlServer(connectionString));
+                options => options.UseSqlServer(connectionString,
+                    b => b.MigrationsAssembly("StudentApi")));
         }
 
         /// <summary>

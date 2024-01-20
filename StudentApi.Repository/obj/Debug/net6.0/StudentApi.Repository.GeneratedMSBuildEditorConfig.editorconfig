@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StudentApi.Repository
-build_property.ProjectDir = C:\Harshani\Personal\Learning\GitHub\student-api\StudentApi.Repository\
+build_property.ProjectDir = C:\Harshani\Github\student-api\StudentApi.Repository\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

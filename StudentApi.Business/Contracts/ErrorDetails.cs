@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace StudentApi.Business.Contracts
 {
-    public class ErrorDetails : IErrorDetails
+    public class ErrorDetails
     {
         public int Code { get; set; }
         public string? Message { get; set; }

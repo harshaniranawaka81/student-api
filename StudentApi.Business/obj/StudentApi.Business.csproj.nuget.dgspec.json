@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi.Business\\StudentApi.Business.csproj": {}
+    "C:\\Harshani\\Github\\student-api\\StudentApi.Business\\StudentApi.Business.csproj": {}
   },
   "projects": {
-    "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi.Business\\StudentApi.Business.csproj": {
+    "C:\\Harshani\\Github\\student-api\\StudentApi.Business\\StudentApi.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi.Business\\StudentApi.Business.csproj",
+        "projectUniqueName": "C:\\Harshani\\Github\\student-api\\StudentApi.Business\\StudentApi.Business.csproj",
         "projectName": "StudentApi.Business",
-        "projectPath": "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi.Business\\StudentApi.Business.csproj",
-        "packagesPath": "C:\\Users\\HRANAWAKA\\.nuget\\packages\\",
-        "outputPath": "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi.Business\\obj\\",
+        "projectPath": "C:\\Harshani\\Github\\student-api\\StudentApi.Business\\StudentApi.Business.csproj",
+        "packagesPath": "C:\\Users\\harsh\\.nuget\\packages\\",
+        "outputPath": "C:\\Harshani\\Github\\student-api\\StudentApi.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HRANAWAKA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\harsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,14 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://end-ipas41.next-uk.next.loc/repository/NEXT-nuget-payments-group/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi.Repository\\StudentApi.Repository.csproj": {
-                "projectPath": "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi.Repository\\StudentApi.Repository.csproj"
+              "C:\\Harshani\\Github\\student-api\\StudentApi.Repository\\StudentApi.Repository.csproj": {
+                "projectPath": "C:\\Harshani\\Github\\student-api\\StudentApi.Repository\\StudentApi.Repository.csproj"
               }
             }
           }
@@ -73,24 +73,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi.Repository\\StudentApi.Repository.csproj": {
+    "C:\\Harshani\\Github\\student-api\\StudentApi.Repository\\StudentApi.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi.Repository\\StudentApi.Repository.csproj",
+        "projectUniqueName": "C:\\Harshani\\Github\\student-api\\StudentApi.Repository\\StudentApi.Repository.csproj",
         "projectName": "StudentApi.Repository",
-        "projectPath": "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi.Repository\\StudentApi.Repository.csproj",
-        "packagesPath": "C:\\Users\\HRANAWAKA\\.nuget\\packages\\",
-        "outputPath": "C:\\Harshani\\Personal\\Learning\\GitHub\\student-api\\StudentApi.Repository\\obj\\",
+        "projectPath": "C:\\Harshani\\Github\\student-api\\StudentApi.Repository\\StudentApi.Repository.csproj",
+        "packagesPath": "C:\\Users\\harsh\\.nuget\\packages\\",
+        "outputPath": "C:\\Harshani\\Github\\student-api\\StudentApi.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HRANAWAKA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\harsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -99,7 +99,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://end-ipas41.next-uk.next.loc/repository/NEXT-nuget-payments-group/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -148,7 +148,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

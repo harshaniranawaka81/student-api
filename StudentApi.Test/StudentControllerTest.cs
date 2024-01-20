@@ -60,7 +60,7 @@ namespace StudentApi.Test
 			//Assert
 			Assert.IsInstanceOf(typeof(OkObjectResult), result);
 			Assert.IsInstanceOf(typeof(List<Student>), ((OkObjectResult)result).Value);
-			Assert.AreEqual(5, ((List<Student>)((OkObjectResult)result).Value).Count);
+			Assert.That(((List<Student>)((OkObjectResult)result).Value).Count, Is.EqualTo(5));
 		}
 
 		[Test]
@@ -143,7 +143,7 @@ namespace StudentApi.Test
 			//Assert
 			Assert.IsInstanceOf(typeof(OkObjectResult), result);
 			Assert.IsInstanceOf(typeof(Student), ((OkObjectResult)result).Value);
-			Assert.AreEqual("Harshani", ((Student)((OkObjectResult)result).Value).StudentName);
+			Assert.That(((Student)((OkObjectResult)result).Value).StudentName, Is.EqualTo("Harshani"));
 		}
 
 		[Test]
@@ -183,7 +183,7 @@ namespace StudentApi.Test
 
 			var expectedResult = new KeyValuePair<HttpStatusCode, Student>(HttpStatusCode.BadRequest, new Student(){StudentId = 10, StudentName = "Test10"});
 
-			studentService.Setup(s => s.GetStudent(studentId)).ReturnsAsync(expectedResult);
+            _ = studentService.Setup(s => s.GetStudent(studentId)).ReturnsAsync(expectedResult);
 
 			var logger = new Mock<ILogger<StudentController>>();
 			var studentController = new StudentController(logger.Object, studentService.Object);
@@ -225,7 +225,7 @@ namespace StudentApi.Test
 
 			//Assert
 			Assert.IsInstanceOf(typeof(CreatedResult), result);
-			Assert.AreEqual(true, (((CreatedResult)result).Value));
+			Assert.That((((CreatedResult)result).Value), Is.EqualTo(true));
 		}
 
 		[Test]
